@@ -1,0 +1,3 @@
+Autor: <imt-username>@mail.upb.de <matrikel-nummer> <nachname>, <vorname>
+Compile: cargo build -r
+Run: ./target/release/template
