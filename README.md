@@ -1,4 +1,5 @@
 Save to zip (after committing): `zip aufgabe00.zip ./ -r`
+Or: `git archive --format zip --output aufgabe00.zip HEAD`
 
 Test run: `cargo run`
 
