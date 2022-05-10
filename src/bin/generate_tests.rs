@@ -47,7 +47,7 @@ fn main() {
         (gen_sorted, "sorted"),
         (gen_reverse, "reversed"),
     ];
-    for line_count in LINES {
+    for line_count in LINES.iter() {
         for (gen_func, prefix) in &outputs {
             let file_name = format!("{}{}.txt", prefix, line_count);
             // create file in output_dir
@@ -62,7 +62,7 @@ fn main() {
             let sol_file = std::io::BufWriter::new(sol_file);
             println!("Writing to file {}, {}.sol", &file_name, &file_name);
             // generate file
-            gen_func(line_count, file, sol_file);
+            gen_func(*line_count, file, sol_file);
             println!("Done with {}", &file_name);
         }
     }
