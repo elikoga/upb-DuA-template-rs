@@ -1,4 +1,4 @@
 Autor: elikoga@mail.upb.de 7251030 Kogan-Wang, Eli
 Autor: wolftim@mail.upb.de 7269381 Wolf, Tim
 Compile: cargo build --release
-Run: ./target/release/aufgabe00
+Run: ./target/release/aufgabe01
